@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans:wght@500&family=Noto+Serif:ital,wght@0,400;1,400;1,700&family=Old+Standard+TT&family=Pacifico&display=swap");
+/* 
+font-family: 'Bree Serif', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Pacifico', cursive; 
+/* font-family: 'Josefin Sans', sans-serif; */
+
+.navbar {
+  height: 70px;
+  background-color: rgb(250, 153, 93);
+  position: sticky !important;
+  color: black;
+  top: 0 !important;
+  z-index: 2 !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  color: rgba(8, 8, 8, 0.682);
+}
+
+.navbar ul li a {
+  color: black;
+  font-size: 20;
+  font-family: "Old Standard TT", serif;
+  font-weight: 600;
+}
+
+.search {
+  border-radius: 6px;
+  border: 1px solid rgb(53, 45, 45);
+  outline: none;
+  height: 35px;
+}
+.icon {
+  font-size: 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+.i1 {
+  background-color: chocolate;
+  padding: 10px;
+  border-radius: 60%;
+}
+.icon1 {
+  position: relative;
+  top: -15px;
+  right: 15px;
+  width: 25px;
+  height: 27px;
+  background-color: rgba(214, 110, 35, 0.716);
+  padding-left: 10px;
+  border-radius: 50%;
+}
+
+.btn-1 {
+  background-color: #f5ac748f;
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 12px;
+  color: rgb(52, 51, 51);
+  border: 1px solid rgb(52, 51, 51);
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 3px solid rgb(22, 22, 22);
+}
+.img-1 {
+  background: url("images/jordan-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.img-2 {
+  background: url("images/addidas-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.img-3 {
+  background: url("images/puma-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.text-area {
+  font-family: "Noto Serif", serif;
+  margin-bottom: 50px;
+}
+
+.item1 ::before {
+  content: "";
+  display: block;
+  background: #f5ac748f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.img-card {
+  height: 500px;
+  border-radius: 3%;
+}
+.card {
+  border: none !important;
+}
+.btn-2 {
+  position: absolute;
+  top: 92%;
+  left: 37%;
+  border: none !important;
+  color: antiquewhite;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 25px;
+}
+.c-2 {
+  position: absolute;
+  left: 35% !important;
+}
+.categories {
+  font-family: "Josefin Sans", sans-serif;
+}
+video {
+  position: relative;
+  min-width: 100%;
+  min-height: 10%;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+trending {
+  text-decoration: underline;
+}
+
+.container h1 a {
+  color: black;
+}
+
+.fa-star {
+  color: #de8832;
+}
